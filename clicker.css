@@ -1,0 +1,99 @@
+@keyframes girar{
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+    
+}
+#botao{
+    height: 180px;
+    width: 180px;
+    animation: girar 2s infinite linear;
+}
+main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    position: absolute;
+    bottom: 0px;top: 0px;
+    left: 0px;right: 50px;
+    background-image: linear-gradient(#5e008a , rgb(255, 0, 255),#5e008a );
+    width: 100%;
+    margin-top: 0%;
+}
+header{
+    background-color: #470068;
+    height: 120px;
+    margin: 0%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+body{
+    margin: 0%;
+    
+}
+footer{
+    background-color: #5e008a;
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    padding: 0%;
+
+}
+li{
+    color: white;
+}
+#shop{
+    
+    margin: 0;
+    padding: 0;
+}
+.botoes{
+    display: inline-flex;
+    background-color: #ab1aff;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    font-size: 12pt;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#botao{
+    background-color: #470068;
+    border-radius: 50px;
+}
+p{
+    margin: 0%;
+    background-color: #ab1aff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#itens{
+    color: white;
+    display: inline-flex;
+}
+#compra{
+    position: relative;  
+    top: 130px;
+    
+}
+div{
+    margin-left: 10px;
+}
+
+
+
+
+
